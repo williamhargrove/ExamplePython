@@ -8,7 +8,7 @@ def getquote(instrument):
 
 
 def main():
-    getquote('XBTUSD')
+    getquote('ETHUSD')
 
 
 if __name__ == '__main__':
