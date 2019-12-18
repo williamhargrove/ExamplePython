@@ -1,9 +1,9 @@
 import requests
 import time
 
-USER = '3/yOOwLj/sGXVocRUksl8qp9YjSn8='
-PASSWORD = 'coinflex123'
-URL = 'https://applewebapi.coinflex.com'
+USER = 'REPLACE'
+PASSWORD = 'REPLACE'
+URL = 'REPLACE'
 
 ASSETS = {'XBT' : 63488,
           'BCH' : 63496,
