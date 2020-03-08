@@ -5,8 +5,8 @@ USER = credentials.USER
 PASSWORD = credentials.PASSWORD
 URL = credentials.URL
 
-BOOK = 'ETH'
-
+#BOOK = 'ETH'
+BOOK = 'XBT'
 # resp = requests.get(CALL, auth=(USER,PASSWORD))
 # if resp.status_code != 200:
 #     # This means something went wrong.
@@ -160,7 +160,7 @@ def sell_limit(amount,price,nonce,ttl):
 def main():
     balance()
     #withdrawal()
-    order_book()
+    #order_book()
     #user_transactions()
     ticker()
     #balance()
