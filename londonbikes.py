@@ -6,7 +6,7 @@ def lb_search(search,area):
     print(area)
 
 
-parser = argparse.ArgumentParser(description="search <search_string>", add_help=False)
+parser = argparse.ArgumentParser(description="search <search_string>", add_help=True)
 #group = parser.add_mutually_exclusive_group()
 # group.add_argument("search")
 # group.add_argument("id")
