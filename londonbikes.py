@@ -6,20 +6,16 @@ def lb_search(search,area):
     print(area)
 
 
-parser = argparse.ArgumentParser(description="search <search_string>", add_help=True)
-#group = parser.add_mutually_exclusive_group()
-# group.add_argument("search")
-# group.add_argument("id")
+my_parser = argparse.ArgumentParser()
+my_parser.add_argument('-search', action='store', type=str, nargs=2, help='search <search_string>')
+my_parser.add_argument('-id', action='store', type=str, nargs=1)
 
-parser.add_argument("search", help="Search for a bike position")
-parser.add_argument("area", help="Area to look for")
-parser.add_argument("id")
+args = my_parser.parse_args()
+print(args.search)
 
-# parser.add_argument("search", help="hello")
-# parser.add_argument("id")
+print('search = %r' % args.search)
 
-args = parser.parse_args()
-#print(args.search)
+print('id = %r' % args.id)
 
 if args.search:
     lb_search(args.search, args.area)
