@@ -5,9 +5,9 @@ import cbpro
 import time
 
 # CD Prod granted api credentials as strings
-apiKey = "603178e57aa3423391604f06371480d4"
-apiSecret = "FplRSsbCon+tbKP6F7vvTeZHbHxTnOsMfPk31lRFQT3hEyqhPGijcERgVfHxltn5XmBjZOiDv3k5/Pjl/N6teg=="
-passphrase = "t7x17fc883p"
+apiKey = ""
+apiSecret = ""
+passphrase = ""
 
 auth_client = cbpro.AuthenticatedClient(apiKey, apiSecret, passphrase)
 
